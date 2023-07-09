@@ -2,6 +2,18 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
 /* nav related styles */
 nav{
     display: flex;
@@ -44,6 +56,9 @@ nav a{
 /* header related styles    */
 .header{
     background-color: #fff8f3;
+    background-image: url("../styles/image/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
     padding: 30px 30px 30px 150px;
@@ -51,8 +66,54 @@ nav a{
     justify-content: space-between;
     align-items: center;
 }
+
+
 .banner.profile-pic{
-    width: 500px;
     
+    
+    
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: 300px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+/* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about section styles */
+.about{
+    padding:130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+#what-i-do-description{
+    padding: 30px 150px;
+}
+.skills-container{
+    display: flex;
+}
+.skill{
+    padding: 30px;
+    gap: 24px;
+}
+.skill-description{
     
 }
