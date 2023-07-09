@@ -136,5 +136,12 @@ main section{
 }
 .resume-container{
     display: flex;
-    gap: 50px;
+    gap: 25px;
+}
+.resume-colume{
+    margin: 20px 50px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
